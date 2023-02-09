@@ -1,0 +1,96 @@
+
+body
+{
+    font-family: 'Heebo', sans-serif;
+    
+}
+.navbar-expand-lg .navbar-collapse, .dropdown-item
+{
+    background: indigo;
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link, .dropdown-item
+{
+   color: white; 
+   font-size: 18px;
+   font-weight: bold;
+   font-family: 'Nunito Sans', sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link .active
+{
+    color: rgb(167, 130, 194);
+    font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover
+{
+color: rgb(167, 130, 194);
+font-size: 20px;
+}
+
+
+.searchform
+{
+    border-radius: 20px !important;
+    border: 2px solid indigo;
+  
+}
+.search
+{
+    padding: 10px;
+    margin-left: -100px;
+}
+.btn-lan
+{
+    @extend .searchform;
+    width: 100px;
+    color: rgb(131, 127, 127);
+    background: white;
+    padding: 8px;
+    margin-left: 30px;
+}
+
+i:hover
+{
+    color:blue;
+}
+
+
+
+.box
+{
+    display: flex;
+  
+ 
+}
+
+ul li
+{
+    list-style: none;
+}
+
+.bs
+{
+    color:Blue;
+    border-left: 5px solid red;
+    padding-left: 5px;
+  
+}
+
+.blocktitle
+{
+    font-weight: bolder;
+    font: 500;
+}
+.zz 
+{
+    height:100px !important;
+    width: 120px !important;
+}
+
+.xx
+{
+    height:500px !important;
+    width: 720px !important;
+}
